@@ -13,6 +13,7 @@
 		FB22CBF12AEAAAF400FBDF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB22CBEF2AEAAAF400FBDF65 /* Main.storyboard */; };
 		FB22CBF32AEAAAF600FBDF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB22CBF22AEAAAF600FBDF65 /* Assets.xcassets */; };
 		FB22CBF62AEAAAF600FBDF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB22CBF42AEAAAF600FBDF65 /* LaunchScreen.storyboard */; };
+		FB22CC042AEAB0E000FBDF65 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22CC032AEAB0E000FBDF65 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FB22CBF22AEAAAF600FBDF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB22CBF52AEAAAF600FBDF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB22CBF72AEAAAF600FBDF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB22CC032AEAB0E000FBDF65 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,56 @@
 		FB22CBE82AEAAAF400FBDF65 /* ContactListHW11 */ = {
 			isa = PBXGroup;
 			children = (
-				FB22CBE92AEAAAF400FBDF65 /* AppDelegate.swift */,
-				FB22CBEB2AEAAAF400FBDF65 /* SceneDelegate.swift */,
-				FB22CBED2AEAAAF400FBDF65 /* ViewController.swift */,
-				FB22CBEF2AEAAAF400FBDF65 /* Main.storyboard */,
-				FB22CBF22AEAAAF600FBDF65 /* Assets.xcassets */,
-				FB22CBF42AEAAAF600FBDF65 /* LaunchScreen.storyboard */,
-				FB22CBF72AEAAAF600FBDF65 /* Info.plist */,
+				FB22CC022AEAAC3D00FBDF65 /* Models */,
+				FB22CBFE2AEAAB9000FBDF65 /* App */,
+				FB22CBFF2AEAAB9D00FBDF65 /* ViewControllers */,
+				FB22CBFD2AEAAB7900FBDF65 /* Storyboards */,
+				FB22CC012AEAAC3300FBDF65 /* Resources */,
 			);
 			path = ContactListHW11;
+			sourceTree = "<group>";
+		};
+		FB22CBFD2AEAAB7900FBDF65 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB22CBEF2AEAAAF400FBDF65 /* Main.storyboard */,
+				FB22CBF42AEAAAF600FBDF65 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FB22CBFE2AEAAB9000FBDF65 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FB22CBE92AEAAAF400FBDF65 /* AppDelegate.swift */,
+				FB22CBEB2AEAAAF400FBDF65 /* SceneDelegate.swift */,
+				FB22CBF72AEAAAF600FBDF65 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB22CBFF2AEAAB9D00FBDF65 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB22CBED2AEAAAF400FBDF65 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FB22CC012AEAAC3300FBDF65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB22CBF22AEAAAF600FBDF65 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB22CC022AEAAC3D00FBDF65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB22CC032AEAB0E000FBDF65 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +183,7 @@
 			files = (
 				FB22CBEE2AEAAAF400FBDF65 /* ViewController.swift in Sources */,
 				FB22CBEA2AEAAAF400FBDF65 /* AppDelegate.swift in Sources */,
+				FB22CC042AEAB0E000FBDF65 /* Person.swift in Sources */,
 				FB22CBEC2AEAAAF400FBDF65 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +337,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactListHW11/Info.plist;
+				INFOPLIST_FILE = ContactListHW11/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +351,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ContactListHW11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,12 +368,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactListHW11/Info.plist;
+				INFOPLIST_FILE = ContactListHW11/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +382,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ContactListHW11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
