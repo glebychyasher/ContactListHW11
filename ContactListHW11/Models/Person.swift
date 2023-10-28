@@ -15,7 +15,7 @@ struct Person: Hashable {
     let email: String
 }
 
-private class DataStore {
+fileprivate class DataStore {
     var names: Set<String>
     var surnames: Set<String>
     var phones: Set<String>
@@ -58,15 +58,15 @@ private class DataStore {
 }
 
 extension Person {
-    static func getPersons() -> Set<Person> {
+    static func getPersons() -> [Person] {
         let dataStore = DataStore()
-        var persons: Set<Person> = []
+        var persons: [Person] = []
         let dsCount = dataStore.count
         if dsCount == -1 {
             return []
         }
         for _ in 0..<dsCount {
-            persons.insert(
+            persons.append(
                 Person(id: UUID(),
                        name: dataStore.names.removeFirst(),
                        surname: dataStore.surnames.removeFirst(),
