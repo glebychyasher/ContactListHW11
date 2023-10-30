@@ -13,65 +13,28 @@ struct Person: Hashable {
     let surname: String
     let phone: String
     let email: String
-}
-
-fileprivate class DataStore {
-    var names: Set<String>
-    var surnames: Set<String>
-    var phones: Set<String>
-    var emails: Set<String>
-    var count: Int {
-        let countsSet: Set<Int> = [names.count, surnames.count, emails.count, phones.count]
-        if countsSet.count == 1 {
-            return countsSet.first ?? -1
-        } else {
-            return -1
-        }
-    }
     
-    init() {
-        names = ["James", 
-                 "Bruce",
-                 "Kevin",
-                 "Li",
-                 "Elena",
-                 "Ksenia"]
-        surnames = ["Cook",
-                    "Flint",
-                    "Jones",
-                    "McKinsey",
-                    "Shan",
-                    "Friderigi"]
-        phones = ["89456789032",
-                  "567896542987",
-                  "234567890123",
-                  "345678123445",
-                  "88005553535",
-                  "891617211315"]
-        emails = ["kuzya2001@gmail.com",
-                  "qwerty1234@icloud.com",
-                  "lutik765@mail.ru",
-                  "dsds22@yandex.ru",
-                  "asdf789@we.com",
-                  "venikdlyapola@outlook.com"]
-    }
+    
 }
 
 extension Person {
     static func getPersons() -> [Person] {
-        let dataStore = DataStore()
+        let dsNames = Array(DataStore.shared.names)
+        let dsSurnames = Array(DataStore.shared.surnames)
+        let dsPhones = Array(DataStore.shared.phones)
+        let dsEmails = Array(DataStore.shared.emails)
         var persons: [Person] = []
-        let dsCount = dataStore.count
+        let dsCount = DataStore.count
         if dsCount == -1 {
             return []
         }
-        for _ in 0..<dsCount {
+        for index in 0..<dsCount {
             persons.append(
                 Person(id: UUID(),
-                       name: dataStore.names.removeFirst(),
-                       surname: dataStore.surnames.removeFirst(),
-                       phone: dataStore.phones.removeFirst(),
-                       email: dataStore.emails.removeFirst())
+                       name: dsNames[index],
+                       surname: dsSurnames[index],
+                       phone: dsPhones[index],
+                       email: dsEmails[index])
             )
         }
         return persons

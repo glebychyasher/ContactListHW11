@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		FB2224332AED33C000F6AA13 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2224322AED33C000F6AA13 /* ContactsTableViewController.swift */; };
 		FB2224352AED3A3400F6AA13 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2224342AED3A3400F6AA13 /* DetailsViewController.swift */; };
+		FB2224372AED3F5400F6AA13 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2224362AED3F5400F6AA13 /* ContactDetailsViewController.swift */; };
+		FB2224392AED408400F6AA13 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2224382AED408400F6AA13 /* TabBarController.swift */; };
+		FB22243B2AEFCE4B00F6AA13 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22243A2AEFCE4A00F6AA13 /* DataStore.swift */; };
 		FB22CBEA2AEAAAF400FBDF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22CBE92AEAAAF400FBDF65 /* AppDelegate.swift */; };
 		FB22CBEC2AEAAAF400FBDF65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22CBEB2AEAAAF400FBDF65 /* SceneDelegate.swift */; };
 		FB22CBF12AEAAAF400FBDF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB22CBEF2AEAAAF400FBDF65 /* Main.storyboard */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		FB2224322AED33C000F6AA13 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		FB2224342AED3A3400F6AA13 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FB2224362AED3F5400F6AA13 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		FB2224382AED408400F6AA13 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FB22243A2AEFCE4A00F6AA13 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		FB22CBE62AEAAAF400FBDF65 /* ContactListHW11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListHW11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB22CBE92AEAAAF400FBDF65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB22CBEB2AEAAAF400FBDF65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +71,7 @@
 				FB22CBFF2AEAAB9D00FBDF65 /* ViewControllers */,
 				FB22CBFD2AEAAB7900FBDF65 /* Storyboards */,
 				FB22CC012AEAAC3300FBDF65 /* Resources */,
+				FB22243A2AEFCE4A00F6AA13 /* DataStore.swift */,
 			);
 			path = ContactListHW11;
 			sourceTree = "<group>";
@@ -93,6 +100,8 @@
 			children = (
 				FB2224322AED33C000F6AA13 /* ContactsTableViewController.swift */,
 				FB2224342AED3A3400F6AA13 /* DetailsViewController.swift */,
+				FB2224362AED3F5400F6AA13 /* ContactDetailsViewController.swift */,
+				FB2224382AED408400F6AA13 /* TabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -185,8 +194,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB22CBEA2AEAAAF400FBDF65 /* AppDelegate.swift in Sources */,
+				FB22243B2AEFCE4B00F6AA13 /* DataStore.swift in Sources */,
 				FB22CC042AEAB0E000FBDF65 /* Person.swift in Sources */,
+				FB2224372AED3F5400F6AA13 /* ContactDetailsViewController.swift in Sources */,
 				FB2224332AED33C000F6AA13 /* ContactsTableViewController.swift in Sources */,
+				FB2224392AED408400F6AA13 /* TabBarController.swift in Sources */,
 				FB22CBEC2AEAAAF400FBDF65 /* SceneDelegate.swift in Sources */,
 				FB2224352AED3A3400F6AA13 /* DetailsViewController.swift in Sources */,
 			);

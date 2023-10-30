@@ -3,4 +3,305 @@
    uuid = "E90969CB-92FA-4AD4-BA11-D32616B32B77"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC4EEF35-4602-4FE6-9667-9454795ED88B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC4EEF35-4602-4FE6-9667-9454795ED88B - 3557aa25e89811c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.ContactsTableViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "991">
+               </Location>
+               <Location
+                  uuid = "BC4EEF35-4602-4FE6-9667-9454795ED88B - 3557aa25e89811c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.ContactsTableViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1229">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8BEC9FA-9DAC-42B0-930F-F8E49B5CBD50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5002D50E-7337-4B61-99C7-BBCFF214A60B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListHW11/Models/Person.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getPersons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF3E198C-AA66-4092-AA65-74540E692E85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListHW11/Models/Person.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getPersons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B6540A1-A118-408B-8722-8754769630CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListHW11/Models/Person.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getPersons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CEB2259-E876-4D63-AB61-BB6237659014"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListHW11/ViewControllers/TabBarController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3CEB2259-E876-4D63-AB61-BB6237659014 - c2aca4768efa823e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.TabBarController.viewDidLoad() -&gt; ()"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/TabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "3CEB2259-E876-4D63-AB61-BB6237659014 - c2aca4768efa823e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.TabBarController.viewDidLoad() -&gt; ()"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/TabBarController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "103">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "289D91DD-88AD-40DA-8D6D-85A0D6C6B15B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ContactsTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "289D91DD-88AD-40DA-8D6D-85A0D6C6B15B - b950be3a6846e8e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.ContactsTableViewController.contactList.getter : Swift.Array&lt;ContactListHW11.Person&gt;"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "289D91DD-88AD-40DA-8D6D-85A0D6C6B15B - 35a3b5fb26d61ea9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.ContactsTableViewController.contactList.setter : Swift.Array&lt;ContactListHW11.Person&gt;"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "289D91DD-88AD-40DA-8D6D-85A0D6C6B15B - 64923fae056ed6a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.ContactsTableViewController.contactList.modify : Swift.Array&lt;ContactListHW11.Person&gt;"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "289D91DD-88AD-40DA-8D6D-85A0D6C6B15B - daa14b4a76e1788f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.ContactsTableViewController.contactList.modify : Swift.Array&lt;ContactListHW11.Person&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "289D91DD-88AD-40DA-8D6D-85A0D6C6B15B - f3b2a916eb9172da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.ContactsTableViewController.init(style: __C.UITableViewStyle) -&gt; ContactListHW11.ContactsTableViewController"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "289D91DD-88AD-40DA-8D6D-85A0D6C6B15B - 2cf5616161ada280"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.ContactsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ContactListHW11.ContactsTableViewController"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "289D91DD-88AD-40DA-8D6D-85A0D6C6B15B - 94ada07786b113f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListHW11.ContactsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ContactListHW11.ContactsTableViewController&gt;"
+                  moduleName = "ContactListHW11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebzobnin/Desktop/%D0%9A%D1%83%D1%80%D1%81%20iOS/2.38/ContactListHW11/ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "69">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EDC702C-8AA3-420C-A1FE-DFAB0A904544"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListHW11/ViewControllers/ContactsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

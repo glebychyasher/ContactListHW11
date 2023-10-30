@@ -9,18 +9,10 @@ import UIKit
 
 class ContactsTableViewController: UITableViewController {
     
-    var contactList = Person.getPersons()
+    var contactList: [Person] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     // MARK: - Table view data source
@@ -47,6 +39,8 @@ class ContactsTableViewController: UITableViewController {
         if segue.identifier == "showDetails" {
             guard let detailsVC = segue.destination as? DetailsViewController else { return }
             detailsVC.person = sender as? Person
+        } else if let contactDetailsVC = segue.destination as? ContactDetailsViewController {
+            contactDetailsVC.contactList = contactList
         }
     }
     /*
